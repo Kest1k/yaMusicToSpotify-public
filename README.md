@@ -2,6 +2,10 @@
 
 Windows-first toolkit for moving a large music library into Spotify, auditing the migration result, and exploring the final dataset in a local dashboard.
 
+Language:
+- [English](./README.md)
+- [Русская версия](./README.ru.md)
+
 This repository combines two practical workflows:
 
 - browser automation for adding tracks through the Spotify web interface with Playwright
@@ -17,7 +21,7 @@ It was built around a real migration from VK, YouTube Music, and Yandex Music, b
 
 ### 1. Browser-based import
 
-The scripts in [`browser_import/`](./browser_import) automate Spotify search and “Like” actions in the web player. This is useful when API-based migration is not enough or when you want to preserve a manual, UI-level import flow.
+The scripts in [`browser_import/`](./browser_import) automate Spotify search and "Like" actions in the web player. This is useful when API-based migration is not enough or when you want to preserve a manual, UI-level import flow.
 
 The optimized variant is:
 
@@ -65,19 +69,19 @@ The [`site/`](./site) directory contains a GitHub-safe demo snapshot so the UI s
 
 ```text
 .
-├── browser_import/                  # Playwright-based Spotify web automation
-├── dashboard/                       # Main dashboard frontend
-├── shared/                          # Text normalization and fuzzy matching helpers
-├── site/                            # Public demo snapshot of the dashboard
-├── MY FULL DISCOGRAPHY (liked tracks).example.json
-├── export_spotify_liked.py
-├── compare_spotify_likes.py
-├── spotify_library_audit.py
-├── refresh_dashboard_data.py
-├── follow_selected_artists.py
-├── follow_resolved_artists.py
-├── spotify_auth.py                  # Shared environment/config loader for Spotify auth
-└── requirements.txt
+|-- browser_import/                  # Playwright-based Spotify web automation
+|-- dashboard/                       # Main dashboard frontend
+|-- shared/                          # Text normalization and fuzzy matching helpers
+|-- site/                            # Public demo snapshot of the dashboard
+|-- MY FULL DISCOGRAPHY (liked tracks).example.json
+|-- export_spotify_liked.py
+|-- compare_spotify_likes.py
+|-- spotify_library_audit.py
+|-- refresh_dashboard_data.py
+|-- follow_selected_artists.py
+|-- follow_resolved_artists.py
+|-- spotify_auth.py                  # Shared environment/config loader for Spotify auth
+`-- requirements.txt
 ```
 
 ## Requirements
@@ -196,7 +200,7 @@ Ignored by Git:
 
 - live Spotify export files
 - generated audit reports
-- browser session/cache files
+- browser session and cache files
 - local progress files
 - selection and follow-resolution artifacts
 
