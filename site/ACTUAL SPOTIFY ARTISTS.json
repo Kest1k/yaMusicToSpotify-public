@@ -1,0 +1,90 @@
+{
+  "exported_at": "2026-04-13T12:00:00Z",
+  "spotify_user": {
+    "id": "demo-user",
+    "display_name": "Demo Account"
+  },
+  "exported_count": 8,
+  "artists": [
+    {
+      "position": 1,
+      "spotify_id": "demo-burial",
+      "name": "Burial",
+      "genres": ["uk garage", "future garage"],
+      "popularity": 58,
+      "followers_total": 410000,
+      "uri": "spotify:artist:demo-burial",
+      "external_url": "https://open.spotify.com/artist/demo-burial"
+    },
+    {
+      "position": 2,
+      "spotify_id": "demo-massive-attack",
+      "name": "Massive Attack",
+      "genres": ["trip hop", "downtempo"],
+      "popularity": 72,
+      "followers_total": 2200000,
+      "uri": "spotify:artist:demo-massive-attack",
+      "external_url": "https://open.spotify.com/artist/demo-massive-attack"
+    },
+    {
+      "position": 3,
+      "spotify_id": "demo-fred-again",
+      "name": "Fred again..",
+      "genres": ["uk electronic", "house"],
+      "popularity": 81,
+      "followers_total": 1800000,
+      "uri": "spotify:artist:demo-fred-again",
+      "external_url": "https://open.spotify.com/artist/demo-fred-again"
+    },
+    {
+      "position": 4,
+      "spotify_id": "demo-kendrick",
+      "name": "Kendrick Lamar",
+      "genres": ["hip hop", "rap"],
+      "popularity": 90,
+      "followers_total": 28000000,
+      "uri": "spotify:artist:demo-kendrick",
+      "external_url": "https://open.spotify.com/artist/demo-kendrick"
+    },
+    {
+      "position": 5,
+      "spotify_id": "demo-prodigy",
+      "name": "The Prodigy",
+      "genres": ["breakbeat", "big beat"],
+      "popularity": 70,
+      "followers_total": 3000000,
+      "uri": "spotify:artist:demo-prodigy",
+      "external_url": "https://open.spotify.com/artist/demo-prodigy"
+    },
+    {
+      "position": 6,
+      "spotify_id": "demo-jamie-xx",
+      "name": "Jamie xx",
+      "genres": ["uk electronic", "electronica"],
+      "popularity": 68,
+      "followers_total": 970000,
+      "uri": "spotify:artist:demo-jamie-xx",
+      "external_url": "https://open.spotify.com/artist/demo-jamie-xx"
+    },
+    {
+      "position": 7,
+      "spotify_id": "demo-kiasmos",
+      "name": "Kiasmos",
+      "genres": ["minimal techno", "modern classical"],
+      "popularity": 49,
+      "followers_total": 310000,
+      "uri": "spotify:artist:demo-kiasmos",
+      "external_url": "https://open.spotify.com/artist/demo-kiasmos"
+    },
+    {
+      "position": 8,
+      "spotify_id": "demo-nils-frahm",
+      "name": "Nils Frahm",
+      "genres": ["modern classical", "ambient"],
+      "popularity": 62,
+      "followers_total": 560000,
+      "uri": "spotify:artist:demo-nils-frahm",
+      "external_url": "https://open.spotify.com/artist/demo-nils-frahm"
+    }
+  ]
+}

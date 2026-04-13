@@ -1,0 +1,28 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+.env
+.cache*
+
+/browser_import/browser_session/
+/browser_import/logs/
+/browser_import/progress.json
+/browser_import/progress_not_found*.json
+
+/ACTUAL SPOTIFY ARTISTS.json
+/ACTUAL SPOTIFY LIKES.json
+/discography_artist_stats.json
+/MY FULL DISCOGRAPHY (liked tracks).json
+/potential_artists_for_add.json
+/remaining_priority_artists_for_follow.json
+/selected_artists_follow_resolution.json
+/selected_potential_artists.json
+/spotify_library_audit_report.json
+/spotify_likes_compare_report.json
+/spotify_likes_not_found.json
+/follow_resolved_result.json
+
+Thumbs.db
+.DS_Store

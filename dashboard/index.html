@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>yaMusicToSpotify Dashboard</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="page">
+    <section class="hero glass">
+      <div>
+        <div class="eyebrow" id="heroEyebrow">yaMusicToSpotify • Taste Dashboard</div>
+        <h1>Большая карта твоего музыкального проекта.</h1>
+        <p class="lead">
+          Здесь собраны текущие Spotify likes, followed artists, ненайденные треки,
+          кандидаты на add и подсказки, как усилить рекомендации и AI DJ.
+        </p>
+      </div>
+      <div class="hero-side">
+        <div class="hero-stat glass-soft">
+          <span class="hero-label">Покрытие</span>
+          <strong id="heroCoverage">—</strong>
+          <span id="heroCoverageText">Загружаю сводку...</span>
+        </div>
+        <div class="hero-stat glass-soft">
+          <span class="hero-label">Статус</span>
+          <strong id="heroStatus">—</strong>
+          <span id="heroStatusText">Читаю локальные JSON-отчёты</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="metrics" class="metrics"></section>
+
+    <section class="overview">
+      <article class="glass panel">
+        <div class="section-head">
+          <div>
+            <h2>Покрытие библиотеки</h2>
+            <p>Сколько полной дискографии уже отражено в Spotify likes и какой кусок ещё теряется.</p>
+          </div>
+        </div>
+        <div class="coverage-layout">
+          <div class="coverage-ring" id="coverageRing">
+            <div class="coverage-inner">
+              <strong id="coverageValue">—</strong>
+              <span>found</span>
+            </div>
+          </div>
+          <div class="legend" id="coverageLegend"></div>
+        </div>
+      </article>
+
+      <article class="glass panel">
+        <div class="section-head">
+          <div>
+            <h2>Источники</h2>
+            <p>Где перенос сработал хорошо, а где Spotify чаще всего ломается на названиях и версиях.</p>
+          </div>
+        </div>
+        <div id="sourceRows" class="source-rows"></div>
+      </article>
+    </section>
+
+    <section id="insightCards" class="insight-grid"></section>
+    <section id="djModes" class="mode-grid"></section>
+
+    <section class="glass panel selection-panel">
+      <div class="section-head">
+        <div>
+          <h2>Selection Lab</h2>
+          <p>Отмечай potential artists чекбоксами, сохраняй выбор в JSON и потом используй его для follow через API.</p>
+        </div>
+      </div>
+      <div class="selection-toolbar">
+        <div class="selection-stats">
+          <div class="selection-count"><strong id="selectedCount">0</strong><span>выбрано к follow</span></div>
+          <div class="selection-status" id="selectionStatus">Список ещё не сохранён</div>
+        </div>
+        <div class="selection-actions">
+          <button id="saveSelectionBtn" class="action-btn primary">Сохранить выбор</button>
+          <button id="clearSelectionBtn" class="action-btn">Очистить всё</button>
+          <button id="downloadSelectionBtn" class="action-btn">Скачать JSON</button>
+        </div>
+      </div>
+      <div id="selectedPreview" class="chips"></div>
+    </section>
+
+    <section class="notes">
+      <article class="glass panel">
+        <div class="section-head">
+          <div>
+            <h2>Что делать дальше</h2>
+            <p>Приоритеты, которые быстрее всего улучшат полноту библиотеки и качество музыкальных рекомендаций.</p>
+          </div>
+        </div>
+        <div id="nextSteps" class="steps"></div>
+      </article>
+
+      <article class="glass panel">
+        <div class="section-head">
+          <div>
+            <h2>Главные провалы</h2>
+            <p>Какие артисты сильнее всего представлены среди ненайденных треков и поэтому больше всего искажают картину.</p>
+          </div>
+        </div>
+        <div id="missingArtists" class="ranking"></div>
+      </article>
+    </section>
+
+    <section class="glass panel tables">
+      <div class="section-head">
+        <div>
+          <h2>Таблицы для изучения</h2>
+          <p>Ищи, сортируй и смотри полный состав артистов, followed list, potential artists и ненайденные треки.</p>
+        </div>
+      </div>
+      <div id="tabs" class="tabs"></div>
+      <div id="tablePanels"></div>
+    </section>
+
+    <footer class="footer">
+      Данные берутся из локальных JSON рядом с проектом. Если отчёты обновились, просто перезагрузи страницу.
+    </footer>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>

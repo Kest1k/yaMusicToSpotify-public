@@ -1,0 +1,4 @@
+Pillow>=10
+playwright>=1.52.0
+spotipy>=2.21.1
+yandex-music>=2.0.0

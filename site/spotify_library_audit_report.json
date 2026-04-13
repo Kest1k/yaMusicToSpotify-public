@@ -1,0 +1,379 @@
+{
+  "meta": {
+    "data_mode": "demo"
+  },
+  "summary": {
+    "generated_at": "2026-04-13T12:00:00Z",
+    "spotify_user": {
+      "id": "demo-user",
+      "display_name": "Demo Account"
+    },
+    "likes_input": "demo",
+    "likes_output": null,
+    "artists_output": "ACTUAL SPOTIFY ARTISTS.json",
+    "discography_file": "demo_discography.json",
+    "report_output": "spotify_library_audit_report.json",
+    "not_found_output": "spotify_likes_not_found.json",
+    "artist_stats_output": "discography_artist_stats.json",
+    "potential_output": "potential_artists_for_add.json",
+    "followed_artists_count": 8,
+    "artist_threshold": 3,
+    "potential_artists_count": 4,
+    "actual_spotify_likes_count": 26,
+    "discography_count": 16,
+    "found_total": 12,
+    "found_exact": 8,
+    "found_fuzzy": 4,
+    "not_found_total": 4,
+    "found_percent": 75.0,
+    "not_found_percent": 25.0
+  },
+  "found": [
+    {
+      "idx": 0,
+      "chronological_index": 1,
+      "source": "vk",
+      "artist": "Burial",
+      "title": "Archangel",
+      "match_type": "exact",
+      "spotify_artist": "Burial",
+      "spotify_title": "Archangel",
+      "spotify_id": "demo-track-001",
+      "saved_at": "2026-04-01T10:00:00Z"
+    },
+    {
+      "idx": 1,
+      "chronological_index": 2,
+      "source": "vk",
+      "artist": "Moderat",
+      "title": "Bad Kingdom",
+      "match_type": "fuzzy",
+      "spotify_artist": "Moderat",
+      "spotify_title": "Bad Kingdom",
+      "spotify_id": "demo-track-002",
+      "saved_at": "2026-04-01T10:01:00Z"
+    },
+    {
+      "idx": 2,
+      "chronological_index": 3,
+      "source": "vk",
+      "artist": "Massive Attack",
+      "title": "Teardrop",
+      "match_type": "exact",
+      "spotify_artist": "Massive Attack",
+      "spotify_title": "Teardrop",
+      "spotify_id": "demo-track-003",
+      "saved_at": "2026-04-01T10:02:00Z"
+    },
+    {
+      "idx": 3,
+      "chronological_index": 4,
+      "source": "vk",
+      "artist": "Skepta",
+      "title": "Shutdown",
+      "match_type": "fuzzy",
+      "spotify_artist": "Skepta",
+      "spotify_title": "Shutdown",
+      "spotify_id": "demo-track-004",
+      "saved_at": "2026-04-01T10:03:00Z"
+    },
+    {
+      "idx": 4,
+      "chronological_index": 5,
+      "source": "yandex_music",
+      "artist": "Jon Hopkins",
+      "title": "Emerald Rush",
+      "match_type": "exact",
+      "spotify_artist": "Jon Hopkins",
+      "spotify_title": "Emerald Rush",
+      "spotify_id": "demo-track-005",
+      "saved_at": "2026-04-01T10:04:00Z"
+    },
+    {
+      "idx": 5,
+      "chronological_index": 6,
+      "source": "yandex_music",
+      "artist": "Four Tet",
+      "title": "Baby",
+      "match_type": "exact",
+      "spotify_artist": "Four Tet",
+      "spotify_title": "Baby",
+      "spotify_id": "demo-track-006",
+      "saved_at": "2026-04-01T10:05:00Z"
+    },
+    {
+      "idx": 6,
+      "chronological_index": 7,
+      "source": "yandex_music",
+      "artist": "Fred again..",
+      "title": "Danielle",
+      "match_type": "fuzzy",
+      "spotify_artist": "Fred again..",
+      "spotify_title": "Danielle (smile on my face)",
+      "spotify_id": "demo-track-007",
+      "saved_at": "2026-04-01T10:06:00Z"
+    },
+    {
+      "idx": 7,
+      "chronological_index": 8,
+      "source": "yandex_music",
+      "artist": "Kiasmos",
+      "title": "Looped",
+      "match_type": "exact",
+      "spotify_artist": "Kiasmos",
+      "spotify_title": "Looped",
+      "spotify_id": "demo-track-008",
+      "saved_at": "2026-04-01T10:07:00Z"
+    },
+    {
+      "idx": 8,
+      "chronological_index": 9,
+      "source": "youtube_music",
+      "artist": "Kendrick Lamar",
+      "title": "N95",
+      "match_type": "exact",
+      "spotify_artist": "Kendrick Lamar",
+      "spotify_title": "N95",
+      "spotify_id": "demo-track-009",
+      "saved_at": "2026-04-01T10:08:00Z"
+    },
+    {
+      "idx": 9,
+      "chronological_index": 10,
+      "source": "youtube_music",
+      "artist": "Jamie xx",
+      "title": "Gosh",
+      "match_type": "exact",
+      "spotify_artist": "Jamie xx",
+      "spotify_title": "Gosh",
+      "spotify_id": "demo-track-010",
+      "saved_at": "2026-04-01T10:09:00Z"
+    },
+    {
+      "idx": 10,
+      "chronological_index": 11,
+      "source": "youtube_music",
+      "artist": "Bicep",
+      "title": "Glue",
+      "match_type": "fuzzy",
+      "spotify_artist": "Bicep",
+      "spotify_title": "Glue",
+      "spotify_id": "demo-track-011",
+      "saved_at": "2026-04-01T10:10:00Z"
+    },
+    {
+      "idx": 11,
+      "chronological_index": 12,
+      "source": "youtube_music",
+      "artist": "The Prodigy",
+      "title": "No Good (Start the Dance)",
+      "match_type": "exact",
+      "spotify_artist": "The Prodigy",
+      "spotify_title": "No Good (Start the Dance)",
+      "spotify_id": "demo-track-012",
+      "saved_at": "2026-04-01T10:11:00Z"
+    }
+  ],
+  "not_found": [
+    {
+      "idx": 12,
+      "chronological_index": 13,
+      "source": "vk",
+      "artist": "Burial",
+      "title": "Shell of Light"
+    },
+    {
+      "idx": 13,
+      "chronological_index": 14,
+      "source": "vk",
+      "artist": "Skepta",
+      "title": "Man"
+    },
+    {
+      "idx": 14,
+      "chronological_index": 15,
+      "source": "yandex_music",
+      "artist": "Kiasmos",
+      "title": "Drawn"
+    },
+    {
+      "idx": 15,
+      "chronological_index": 16,
+      "source": "youtube_music",
+      "artist": "Bicep",
+      "title": "Sundial"
+    }
+  ],
+  "artist_stats": [
+    {
+      "artist": "Burial",
+      "normalized_artist": "burial",
+      "discography_track_count": 3,
+      "added_track_count": 2,
+      "missing_track_count": 1,
+      "followed_on_spotify": true,
+      "spotify_followed_artist_name": "Burial",
+      "example_added_tracks": [],
+      "example_missing_tracks": [],
+      "potential_for_add": false
+    },
+    {
+      "artist": "Four Tet",
+      "normalized_artist": "four tet",
+      "discography_track_count": 6,
+      "added_track_count": 5,
+      "missing_track_count": 1,
+      "followed_on_spotify": false,
+      "spotify_followed_artist_name": null,
+      "example_added_tracks": [],
+      "example_missing_tracks": [],
+      "potential_for_add": true
+    },
+    {
+      "artist": "Jon Hopkins",
+      "normalized_artist": "jon hopkins",
+      "discography_track_count": 4,
+      "added_track_count": 4,
+      "missing_track_count": 0,
+      "followed_on_spotify": false,
+      "spotify_followed_artist_name": null,
+      "example_added_tracks": [],
+      "example_missing_tracks": [],
+      "potential_for_add": true
+    },
+    {
+      "artist": "Bicep",
+      "normalized_artist": "bicep",
+      "discography_track_count": 6,
+      "added_track_count": 5,
+      "missing_track_count": 1,
+      "followed_on_spotify": false,
+      "spotify_followed_artist_name": null,
+      "example_added_tracks": [],
+      "example_missing_tracks": [],
+      "potential_for_add": true
+    },
+    {
+      "artist": "Daniel Avery",
+      "normalized_artist": "daniel avery",
+      "discography_track_count": 5,
+      "added_track_count": 4,
+      "missing_track_count": 1,
+      "followed_on_spotify": false,
+      "spotify_followed_artist_name": null,
+      "example_added_tracks": [],
+      "example_missing_tracks": [],
+      "potential_for_add": true
+    },
+    {
+      "artist": "Fred again..",
+      "normalized_artist": "fred again",
+      "discography_track_count": 5,
+      "added_track_count": 4,
+      "missing_track_count": 1,
+      "followed_on_spotify": true,
+      "spotify_followed_artist_name": "Fred again..",
+      "example_added_tracks": [],
+      "example_missing_tracks": [],
+      "potential_for_add": false
+    },
+    {
+      "artist": "The Prodigy",
+      "normalized_artist": "the prodigy",
+      "discography_track_count": 4,
+      "added_track_count": 4,
+      "missing_track_count": 0,
+      "followed_on_spotify": true,
+      "spotify_followed_artist_name": "The Prodigy",
+      "example_added_tracks": [],
+      "example_missing_tracks": [],
+      "potential_for_add": false
+    },
+    {
+      "artist": "Kendrick Lamar",
+      "normalized_artist": "kendrick lamar",
+      "discography_track_count": 4,
+      "added_track_count": 4,
+      "missing_track_count": 0,
+      "followed_on_spotify": true,
+      "spotify_followed_artist_name": "Kendrick Lamar",
+      "example_added_tracks": [],
+      "example_missing_tracks": [],
+      "potential_for_add": false
+    },
+    {
+      "artist": "Kiasmos",
+      "normalized_artist": "kiasmos",
+      "discography_track_count": 3,
+      "added_track_count": 2,
+      "missing_track_count": 1,
+      "followed_on_spotify": true,
+      "spotify_followed_artist_name": "Kiasmos",
+      "example_added_tracks": [],
+      "example_missing_tracks": [],
+      "potential_for_add": false
+    },
+    {
+      "artist": "Jamie xx",
+      "normalized_artist": "jamie xx",
+      "discography_track_count": 3,
+      "added_track_count": 3,
+      "missing_track_count": 0,
+      "followed_on_spotify": true,
+      "spotify_followed_artist_name": "Jamie xx",
+      "example_added_tracks": [],
+      "example_missing_tracks": [],
+      "potential_for_add": false
+    }
+  ],
+  "potential_artists_for_add": [
+    {
+      "artist": "Four Tet",
+      "normalized_artist": "four tet",
+      "discography_track_count": 6,
+      "added_track_count": 5,
+      "missing_track_count": 1,
+      "followed_on_spotify": false,
+      "spotify_followed_artist_name": null,
+      "example_added_tracks": [],
+      "example_missing_tracks": [],
+      "potential_for_add": true
+    },
+    {
+      "artist": "Jon Hopkins",
+      "normalized_artist": "jon hopkins",
+      "discography_track_count": 4,
+      "added_track_count": 4,
+      "missing_track_count": 0,
+      "followed_on_spotify": false,
+      "spotify_followed_artist_name": null,
+      "example_added_tracks": [],
+      "example_missing_tracks": [],
+      "potential_for_add": true
+    },
+    {
+      "artist": "Bicep",
+      "normalized_artist": "bicep",
+      "discography_track_count": 6,
+      "added_track_count": 5,
+      "missing_track_count": 1,
+      "followed_on_spotify": false,
+      "spotify_followed_artist_name": null,
+      "example_added_tracks": [],
+      "example_missing_tracks": [],
+      "potential_for_add": true
+    },
+    {
+      "artist": "Daniel Avery",
+      "normalized_artist": "daniel avery",
+      "discography_track_count": 5,
+      "added_track_count": 4,
+      "missing_track_count": 1,
+      "followed_on_spotify": false,
+      "spotify_followed_artist_name": null,
+      "example_added_tracks": [],
+      "example_missing_tracks": [],
+      "potential_for_add": true
+    }
+  ]
+}
